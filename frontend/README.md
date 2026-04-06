@@ -30,7 +30,7 @@ dart run flutter_launcher_icons
 flutter run
 
 
-
+----------------------------------------------------------------------------------------------------------
 ** Features**
 
 Real-time Dashboard: Track total balance, monthly income, and current day expenses.
@@ -47,7 +47,8 @@ Local Notifications: Scheduled reminders for daily logging (Android 13+ compatib
 
 Pull-to-Refresh: Instant data synchronization with the MongoDB backend.
 
-
+-----------------------------------------------------------------------------------------------------
+**TECHSTACK**
 
 **Frontend (Mobile App)**
 
@@ -61,14 +62,14 @@ Local Storage & Notifications: flutter_local_notifications – Handles the daily
 
 Icons: flutter_launcher_icons – Used to automate the generation of your custom app logo across different Android densities.
 
-**⚙️ Backend (Server Logic)**
+** Backend (Server Logic)**
 Runtime: Node.js – The engine running your server-side logic.
 
 Framework: Express.js – Used to build the RESTful API endpoints that your Flutter app calls (e.g., GET /transactions, POST /add-transaction).
 
 Environment Management: Dotenv – Manages sensitive environment variables like port numbers and connection strings.
 
-**🗄️ Database (Storage)**
+** Database (Storage)**
 
 Database: MongoDB (Community Server) – A NoSQL database used to store transaction JSON objects.
 
@@ -76,7 +77,7 @@ ODM: Mongoose – An Object Data Modeling library for MongoDB and Node.js. It pr
 
 GUI: MongoDB Compass – Used for visually inspecting your transaction logs and verifying if dates are stored in UTC.
 
-**🛠️ Dev Ops & Tools**
+** Dev Ops & Tools**
 
 Version Control: Git – (As reflected in your request for a GitHub-style README).
 
@@ -86,7 +87,7 @@ Process Management: Launchctl (macOS) – Used to keep the MongoDB service runni
 
 API Testing: Postman or Thunder Client – Essential for testing the connection between 127.0.0.1:3000 and the database before connecting the Flutter frontend.
 
-**🔌 Connection Layer**
+** Connection Layer**
 
 Protocol: HTTP/JSON – The "language" spoken between your Flutter app and the Node.js server.
 

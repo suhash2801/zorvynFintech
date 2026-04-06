@@ -48,6 +48,7 @@ flutter run
 ----------------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------------------
+
 ** Features**
 
 Real-time Dashboard: Track total balance, monthly income, and current day expenses.
@@ -65,6 +66,7 @@ Local Notifications: Scheduled reminders for daily logging (Android 13+ compatib
 Pull-to-Refresh: Instant data synchronization with the MongoDB backend.
 
 -----------------------------------------------------------------------------------------------------
+
 **TECHSTACK**
 
 **Frontend (Mobile App)**
@@ -78,6 +80,7 @@ Data Visualization: fl_chart – Powers the dynamic, horizontally scrollable bar
 Local Storage & Notifications: flutter_local_notifications – Handles the daily logging reminders and ensures they persist after a phone reboot.
 
 Icons: flutter_launcher_icons – Used to automate the generation of your custom app logo across different Android densities.
+----------------------------------------------------------------------------------------------------------------
 
 ** Backend (Server Logic)**
 Runtime: Node.js – The engine running your server-side logic.
@@ -85,6 +88,7 @@ Runtime: Node.js – The engine running your server-side logic.
 Framework: Express.js – Used to build the RESTful API endpoints that your Flutter app calls (e.g., GET /transactions, POST /add-transaction).
 
 Environment Management: Dotenv – Manages sensitive environment variables like port numbers and connection strings.
+----------------------------------------------------------------------------------------------------------------
 
 ** Database (Storage)**
 
@@ -93,6 +97,7 @@ Database: MongoDB (Community Server) – A NoSQL database used to store transact
 ODM: Mongoose – An Object Data Modeling library for MongoDB and Node.js. It provides a schema-based solution to model your application data (Amount, Date, Type, Category).
 
 GUI: MongoDB Compass – Used for visually inspecting your transaction logs and verifying if dates are stored in UTC.
+----------------------------------------------------------------------------------------------------------------
 
 ** Dev Ops & Tools**
 

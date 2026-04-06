@@ -1,0 +1,44 @@
+name: frontend
+description: "A new Flutter finance application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^17.0.0
+  
+  # Core Logic & State Management
+  http: ^1.1.0
+  flutter_riverpod: ^2.4.9
+  intl: ^0.20.2 # Updated to a more stable version
+  
+  # Data Visualization
+  fl_chart: ^0.66.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  # Move this here as it's a tool for development
+  flutter_launcher_icons: ^0.13.1
+
+# --- ICON CONFIGURATION (Must be at the far left margin) ---
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_logo.png"
+  adaptive_icon_background: "#3F51B5"
+  adaptive_icon_foreground: "assets/icon/app_logo.png"
+
+flutter:
+  uses-material-design: true
+  # Ensure your assets are registered so the tool can see them
+  assets:
+    - assets/icon/

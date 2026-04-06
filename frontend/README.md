@@ -51,7 +51,7 @@ flutter run
 
 ----------------------------------------------------------------------------------------------------------
 
-** Features**
+**Features**
 
 Real-time Dashboard: Track total balance, monthly income, and current day expenses.
 
@@ -104,7 +104,7 @@ GUI: MongoDB Compass – Used for visually inspecting your transaction logs and 
 
 ----------------------------------------------------------------------------------------------------------------
 
-** Dev Ops & Tools**
+**Dev Ops & Tools**
 
 Version Control: Git – (As reflected in your request for a GitHub-style README).
 
@@ -115,7 +115,8 @@ Process Management: Launchctl (macOS) – Used to keep the MongoDB service runni
 API Testing: Postman or Thunder Client – Essential for testing the connection between 127.0.0.1:3000 and the database before connecting the Flutter frontend.
 
 ----------------------------------------------------------------------------------------------------------------
-** Connection Layer**
+
+**Connection Layer**
 
 Protocol: HTTP/JSON – The "language" spoken between your Flutter app and the Node.js server.
 

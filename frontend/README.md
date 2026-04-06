@@ -12,12 +12,12 @@ Node.js (v16 or higher)
 
 MongoDB Community Server
 
-**1. Backend Setup**
+1. Backend Setup**
 
-In Terminal 
-**cd backend
+#In Terminal 
+cd backend
 
-npm install**
+npm install
 
  Ensure MongoDB is running (brew services start mongodb-community)
  
@@ -25,21 +25,20 @@ npm install**
 
 nodemon server.js
 
-**
 
-**2. Frontend Setup**
+2. Frontend Setup**
 
-In Terminal
+#In Terminal
 
 **cd frontend
 
 flutter pub get
-**
+
  Generate Launcher Icons
 dart run flutter_launcher_icons
  Run on connected device
  
-**flutter run**
+flutter run
 
 
 ----------------------------------------------------------------------------------------------------------

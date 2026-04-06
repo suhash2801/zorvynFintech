@@ -14,7 +14,7 @@ MongoDB Community Server
 
 1. Backend Setup**
 
-#In Terminal 
+In Terminal 
 cd backend
 
 npm install
@@ -30,7 +30,7 @@ nodemon server.js
 
 #In Terminal
 
-**cd frontend
+cd frontend
 
 flutter pub get
 

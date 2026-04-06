@@ -5,7 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 
-**Prerequisites**
+Prerequisites
 Flutter SDK (Stable)
 
 Node.js (v16 or higher)
@@ -13,6 +13,7 @@ Node.js (v16 or higher)
 MongoDB Community Server
 
 **1. Backend Setup**
+
 In Terminal 
 cd backend
 npm install
@@ -21,6 +22,7 @@ npm start
 
 
 **2. Frontend Setup**
+
 In Terminal
 cd frontend
 flutter pub get

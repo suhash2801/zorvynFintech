@@ -20,18 +20,25 @@ cd backend
 npm install
 
  Ensure MongoDB is running (brew services start mongodb-community)
+ 
 npm start
+
 nodemon server.js
+
+
 
 **2. Frontend Setup**
 
 In Terminal
+
 cd frontend
+
 flutter pub get
 
  Generate Launcher Icons
 dart run flutter_launcher_icons
  Run on connected device
+ 
 flutter run
 
 
